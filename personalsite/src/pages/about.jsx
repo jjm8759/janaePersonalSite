@@ -5,8 +5,8 @@ import Portrait from '../janaes_portrait.jpg';
 
 const About = () => {
     return (
-        <div>
-            <div className='about-container'>
+        <div className='about'>
+            <div className='about-grid-container'>
                 <div className='container-item'>
                     <img id='portrait' src={Portrait} alt={"Janae"}></img>
                 </div>
@@ -20,7 +20,11 @@ const About = () => {
                 </div>
 
                 <div className='container-item' id='description'>
-                    <p>Hello, my name is Iyani Walcott. Right now, I am majoring in Software Engineering and will graduate in 2026.</p>
+                    <p>Hello, my name is Iyani Walcott I am a student at Rochester Institute of Technology majoring in Software Engineering. 
+                        My interest in computer science started in Middle School while learning Scratch. In High School I was able to get hands on 
+                        experience on a development team and build a solid foundation in teamwork and software fundementals. Now I am a full stack 
+                        developer looking to expand my knowledge into the Cloud and DevOps methodologies.
+                    </p>
                 </div>
             </div>
 

@@ -1,19 +1,23 @@
+.about {
+    margin: 5%;
+}
 
-.about-container {
+.about-grid-container {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 1fr 1fr;
 }
 
 .container-item {
-    grid-column-start: 1 ;
-
+    grid-column-start: 1;
 }
 
 #description {
     grid-column-start: 2;
     grid-row-start: 1;
-    
+    text-align: justify;
+    align-self: center;
+
 }
 
 
@@ -21,4 +25,3 @@
     width: 40%;
     height: 90%;
 }
-
